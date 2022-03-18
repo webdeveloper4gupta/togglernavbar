@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color:floralwhite;
+    background-color: green;
+}
+.container{
+    display:grid;
+    grid-template-columns: 20% 60% 10%;
+     height:10vh;
+     align-content: center;
+    
+    }
+    #amu1{
+        text-align: center;
+    }
+#aman1{
+    display:flex;
+    
+}
+#aman1 li{
+    list-style-type: none;
+    margin-right:20px;
+}
+#sukritan1{
+    position:absolute;
+    background-color: black;
+    color:white;
+    width:80px;
+    display:none;
+}
+#sukritan2{
+    display:none;
+}
+#amu1{
+    font-size:30px;
+}
+#maha1{
+    display:none;
+}
+@media screen and (max-width:600px) {
+    #aman1{
+        display:block;
+    }
+    #mahajan1{
+        display:none;
+        position:absolute;
+        background-color: grey;
+        height:20vh;
+        width:100vw;
+    }
+    #sukritan2{
+        margin-left:10px;
+        display:block;
+    }
+    #amu1{
+        font-size:20px;
+    }
+    #maha1{
+        display:block;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+    #aman1 li{
+        margin-top:5px;
+        color:black;
+    }
+    #sukritan1 li{
+        color:white;
+    }
+}
